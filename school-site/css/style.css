@@ -111,7 +111,9 @@ h2 {
     font-size: 1.5rem;
 }
 
-h2 + p {}
+h2 + p {
+    color: red;
+}
 
 p {
     font-size: 0.75rem;
@@ -132,29 +134,45 @@ figcaption {
 
 
 /* Link Styling */
-a {}
+a {
+   color: #33658A;
+}
 
 a:link, 
-a:visited {}
+a:visited {
+   color: #33658A;
+}
 
 a:focus,
-a:hover {}
+a:hover {
+    text-decoration: none;
+}
 
 
 /* List Styling */
 ul {
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
-    word-spacing: 0.125rem; 
+    word-spacing: 0.125rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    list-style-type: square; 
 }
 
 ol {
     font-size: 0.75rem;
     letter-spacing: 0.031rem;
     word-spacing: 0.125rem; 
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0rem;
+    margin-left: 0rem;
+    list-style-type: lower-alpha; 
 }
 
-.long-list a:hover {}
+.long-list a:hover {
+    text-decoration: none;
+}
 
 
 /* Navigation Menu */
