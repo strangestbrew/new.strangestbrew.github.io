@@ -82,7 +82,6 @@ header, footer {
     src: url(../fonts/josefinslab-regular.ttf);
     font-weight: normal;
     font-style: normal;
-    color: orange;
 }
 
 @font-face {
@@ -90,7 +89,6 @@ header, footer {
     src: url(../fonts/montserrat-regular.ttf);
     font-weight: normal;
     font-style: normal;
-    color: pink;
 }
 
 
@@ -112,7 +110,6 @@ h2 {
 }
 
 h2 + p {
-    color: red;
 }
 
 p {
