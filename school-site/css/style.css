@@ -89,6 +89,7 @@ header, footer {
     src: url("./fonts/montserrat-regular.ttf") format("ttf");
     font-weight: normal;
     font-style: normal;
+    font-color: pink;
 }
 
 
