@@ -86,7 +86,7 @@ header, footer {
 
 @font-face {
     font-family: montserrat-regular;
-    src: url("./fonts/montserrat-regular.ttf") format("ttf");
+    src: url(../fonts/montserrat-regular.ttf);
     font-weight: normal;
     font-style: normal;
     font-color: pink;
