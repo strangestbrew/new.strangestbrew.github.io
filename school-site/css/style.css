@@ -169,29 +169,41 @@ ol {
 
 .long-list a:hover {
     text-decoration: none;
+    text-transform: uppercase; 
 }
 
 
 /* Navigation Menu */
-nav {}
+nav {
+    padding-left: 0rem; 
+    margin-top: 0.25rem;
+}
 
 nav a{
-    text-decoration:none;
-    display:inline-block;
-    width:100%;
-    line-height:3;
-    text-align:center;
-    font-size:1.125rem;
-    margin-bottom:1.5rem;
-    border:solid 0.0625rem #33658A;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    line-height: 3;
+    text-align: center;
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+    border: solid, 0.063rem, #33658A;
 }
 
 nav a:focus,
-nav a:hover {}
+nav a:hover {
+    color: #FFF;
+    background-color: #33658A;
+}
 
-nav a:active {}
+nav a:active {
+    color: #FFF;
+    background-color: #000;
+}
 
 
 /* Footer Styles */
-footer {}
+footer {
+    text-align: center; 
+}
 
