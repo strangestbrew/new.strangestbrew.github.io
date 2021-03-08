@@ -82,6 +82,7 @@ header, footer {
     src: url(../fonts/josefinslab-regular.ttf);
     font-weight: normal;
     font-style: normal;
+    color: orange;
 }
 
 @font-face {
@@ -89,7 +90,7 @@ header, footer {
     src: url(../fonts/montserrat-regular.ttf);
     font-weight: normal;
     font-style: normal;
-    font-color: pink;
+    color: pink;
 }
 
 
@@ -99,24 +100,35 @@ html {
 }
 
 h1 {
+    font-family: josefinslab-regular, serif; 
     font-size: 3.75rem;
-    margin: 1.125;
+    margin: 1.125rem;
     align: center;    
 }
 
 h2 {
-    font-size: 24px;
+    font-family: josefinslab-regular, serif;
+    font-size: 1.5rem;
 }
 
 h2 + p {}
 
 p {
-    
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem; 
 }
 
-li {}
+li {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem; 
+}
 
-figcaption {}
+figcaption {
+    font-size: 0.75rem;
+    margin-bottom: 2rem;
+}
 
 
 /* Link Styling */
@@ -130,9 +142,17 @@ a:hover {}
 
 
 /* List Styling */
-ul {}
+ul {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem; 
+}
 
-ol {}
+ol {
+    font-size: 0.75rem;
+    letter-spacing: 0.031rem;
+    word-spacing: 0.125rem; 
+}
 
 .long-list a:hover {}
 
