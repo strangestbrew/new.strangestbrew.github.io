@@ -79,7 +79,7 @@ header, footer {
 /* Imported Typfaces */
 @font-face {
     font-family: josefinslab-regular;
-    src: url("./fonts/josefinslab-regular.ttf") format("ttf");
+    src: url(../fonts/josefinslab-regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
@@ -95,7 +95,7 @@ header, footer {
 
 /* Typography Styles */
 html {
-    font-family: montserrat-regular, Arial, sans-serif; 
+    font-family: montserrat-regular, sans-serif; 
 }
 
 h1 {
@@ -140,7 +140,16 @@ ol {}
 /* Navigation Menu */
 nav {}
 
-nav a {}
+nav a{
+    text-decoration:none;
+    display:inline-block;
+    width:100%;
+    line-height:3;
+    text-align:center;
+    font-size:1.125rem;
+    margin-bottom:1.5rem;
+    border:solid 0.0625rem #33658A;
+}
 
 nav a:focus,
 nav a:hover {}
