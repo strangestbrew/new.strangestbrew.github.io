@@ -80,15 +80,15 @@ header, footer {
 @font-face {
     font-family: josefinslab-regular;
     src: url("./fonts/josefinslab-regular.ttf") format("ttf");
-/*     font-weight: ; */
-/*     font-style: ; */
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
     font-family: montserrat-regular;
     src: url("./fonts/montserrat-regular.ttf") format("ttf");
-/*     font-weight: ; */
-/*     font-style: ; */
+    font-weight: normal;
+    font-style: normal;
 }
 
 
@@ -98,14 +98,20 @@ html {
 }
 
 h1 {
-    
+    font-size: 3.75rem;
+    margin: 1.125;
+    align: center;    
 }
 
-h2 {}
+h2 {
+    font-size: 24px;
+}
 
 h2 + p {}
 
-p {}
+p {
+    
+}
 
 li {}
 
