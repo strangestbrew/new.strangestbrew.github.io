@@ -113,11 +113,11 @@ h5 {
     padding-right: .5rem;
     padding-bottom: .5rem; 
     padding-left: .5rem; 
-    color: #FFF;
+/*     color: #FFF; */
     background-color: #333; 
     font-weight: normal; 
     text-align: center; 
-/*      color: darkred;     */
+     color: pink;    
 }
 
 
