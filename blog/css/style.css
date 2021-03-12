@@ -47,10 +47,14 @@
 
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
-
-body {
-  display: flex;
-  flex-direction: column;
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
+  padding: 24px 15px;
+  text-align: center;
 }
 
 nav {
@@ -63,6 +67,28 @@ nav {
   border-bottom: solid gray;
   border-top: solid gray;
   padding-top: .75rem;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+section {
+  float: left;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  width: 30%;
+}
+
+footer {
+  clear: both;
+  margin-bottom: 0;
 }
 
 button {
@@ -78,25 +104,4 @@ a {
 a:hover {
   color: gray;
   text-transform: uppercase; 
-}
-
-h1 {
-  transform: rotate(5deg);
-}
-
-section {
-  float: left;
-  margin: 0 1.5%;
-  width: 63%;
-}
-
-aside {
-  float: right;
-  margin: 0 1.5%;
-  width: 30%;
-}
-
-footer {
-
-    bottom:0;
 }
