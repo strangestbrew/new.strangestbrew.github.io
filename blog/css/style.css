@@ -48,4 +48,55 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 
+body {
+  display: flex;
+  flex-direction: column;
+}
 
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+  height: 2rem;
+  border-bottom: solid gray;
+  border-top: solid gray;
+  padding-top: .75rem;
+}
+
+button {
+  color: navy;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+a:hover {
+  color: gray;
+  text-transform: uppercase; 
+}
+
+h1 {
+  transform: rotate(5deg);
+}
+
+section {
+  float: left;
+  margin: 0 1.5%;
+  width: 63%;
+}
+
+aside {
+  float: right;
+  margin: 0 1.5%;
+  width: 30%;
+}
+
+footer {
+
+    bottom:0;
+}
