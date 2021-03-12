@@ -52,9 +52,10 @@ code {
   border-radius: 6px;
   color: #fff;
   display: block;
-  font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier;
-  padding: 24px 15px;
+/*   font: 14px/24px "Source Code Pro", Inconsolata, "Lucida Console", Terminal, "Courier New", Courier; */
+/*   padding: 24px 15px; */
   text-align: center;
+  background-color: pink;
 }
 
 nav {
@@ -92,7 +93,9 @@ footer {
 }
 
 button {
-  color: navy;
+  background-color: navy;
+  color: white;
+  border-radius: 12px;
 }
 
 a {
@@ -105,3 +108,64 @@ a:hover {
   color: gray;
   text-transform: uppercase; 
 }
+
+aside {
+  background-color: beige;
+}
+
+@font-face {
+    font-family: lato-regular;
+    src: url(../fonts/lato-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url(../fonts/montserrat-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: opensans-regular;
+    src: url(../fonts/opensans-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: roboto-regular;
+    src: url(../fonts/roboto-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: josefinslab-regular;
+    src: url(../fonts/josefinslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: robotoslab-regular;
+    src: url(../fonts/robotoslab-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: rozhaone-regular;
+    src: url(../fonts/rozhaone-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: ultra-regular;
+    src: url(../fonts/ultra-regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
